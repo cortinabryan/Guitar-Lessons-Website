@@ -1,0 +1,14 @@
+.header {
+  height: 85vh;
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(189, 218, 85, 0.8),
+      rgba(10, 102, 151, 0.8)
+    ),
+    url(../img/Guitar.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}

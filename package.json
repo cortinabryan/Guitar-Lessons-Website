@@ -4,12 +4,16 @@
   "description": "Guitar Lesson Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cortinabryan/Guitar-Lessons-Website.git"
   },
   "author": "Bryan Cortina",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
