@@ -3,7 +3,7 @@ body {
   /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.7;
-  // color: orangered;
+  color: blue;
 }
 
 .heading-primary {
@@ -11,12 +11,12 @@ body {
   text-transform: uppercase;
 
   &--main {
-    font-size: 67px;
-    color: orchid;
+    font-size: 6rem;
+    color: $color-primary;
   }
 
   &--sub {
-    font-size: 200px;
-    color: aquamarine;
+    font-size: 6rem;
+    color: $color-secondary-light;
   }
 }
