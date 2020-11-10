@@ -3,5 +3,20 @@ body {
   /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.7;
-  color: orangered;
+  // color: orangered;
+}
+
+.heading-primary {
+  // color: yellow;
+  text-transform: uppercase;
+
+  &--main {
+    font-size: 67px;
+    color: orchid;
+  }
+
+  &--sub {
+    font-size: 200px;
+    color: aquamarine;
+  }
 }
