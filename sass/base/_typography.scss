@@ -11,11 +11,13 @@ body {
   text-transform: uppercase;
 
   &--main {
+    display: block;
     font-size: 6rem;
     color: $color-primary;
   }
 
   &--sub {
+    display: block;
     font-size: 6rem;
     color: $color-secondary-light;
   }
