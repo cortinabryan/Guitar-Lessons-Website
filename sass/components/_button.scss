@@ -11,6 +11,7 @@
     border-radius: 6.25rem;
     transition: all 0.2s;
     position: relative;
+    border: none;
     cursor: pointer;
   }
 
@@ -24,9 +25,20 @@
     }
   }
 
-  &:active {
+  &:active,
+  &:focus {
+    outline: none;
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba($color-black, 0.2);
+  }
+
+  &-white {
+    background-color: orchid;
+    color: green;
+    &:after {
+      background-color: yellow;
+      color: blue;
+    }
   }
 
   &::after {
@@ -39,9 +51,5 @@
     top: 0;
     left: 0;
     z-index: -1;
-  }
-
-  &-white::after {
-    background-color: orangered;
   }
 }
