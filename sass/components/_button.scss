@@ -35,8 +35,9 @@
   &-white {
     background-color: orchid;
     color: green;
+    margin-top: 2rem;
     &:after {
-      background-color: yellow;
+      background-color: $color-white;
       color: blue;
     }
   }
@@ -48,8 +49,13 @@
     width: 100%;
     border-radius: 6.25rem;
     position: absolute;
+    transition: all 0.4s;
     top: 0;
     left: 0;
     z-index: -1;
+  }
+
+  &--animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
   }
 }

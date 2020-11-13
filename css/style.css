@@ -46,11 +46,25 @@ body {
   .heading-primary--main {
     display: block;
     font-size: 6rem;
-    color: #17a2ed; }
+    color: #17a2ed;
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    margin: 0; }
   .heading-primary--sub {
     display: block;
-    font-size: 6rem;
-    color: #d15c0a; }
+    font-size: 4rem;
+    color: #db9f51;
+    animation-name: moveInRight;
+    animation-timing-function: ease-out;
+    animation-duration: 3s; }
+  .heading-primary--sub2 {
+    display: block;
+    font-size: 2rem;
+    color: #d15c0a;
+    animation-name: moveInBottom;
+    animation-timing-function: ease-out;
+    animation-duration: 3s; }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -78,9 +92,10 @@ body {
 
 .btn-white {
   background-color: orchid;
-  color: green; }
+  color: green;
+  margin-top: 2rem; }
   .btn-white:after {
-    background-color: yellow;
+    background-color: #fff;
     color: blue; }
 
 .btn::after {
@@ -90,9 +105,29 @@ body {
   width: 100%;
   border-radius: 6.25rem;
   position: absolute;
+  transition: all 0.4s;
   top: 0;
   left: 0;
   z-index: -1; }
+
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc( 2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .header {
   height: 85vh;
