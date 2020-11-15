@@ -68,4 +68,9 @@ body {
 
 .paragraph {
   font-size: 1.6rem;
+  // margin-bottom: 5rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
 }

@@ -32,7 +32,8 @@
   box-sizing: border-box; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 3rem; }
 
 body {
   font-family: "Righteous", cursive;
@@ -86,6 +87,8 @@ body {
 
 .paragraph {
   font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
 
 .u-center-text {
   text-align: center !important; }
