@@ -155,6 +155,11 @@ body {
 .btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s; }
 
+.composition {
+  position: relative; }
+  .composition__photo {
+    width: 55%; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
