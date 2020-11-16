@@ -3,5 +3,41 @@
 
   &__photo {
     width: 55%;
+    position: absolute;
+    z-index: 1;
+    outline-offset: 2rem;
+    margin-left: 5rem;
+
+    &--p1 {
+      left: 6rem;
+      top: -5rem;
+      z-index: 4;
+    }
+    &--p2 {
+      left: -10rem;
+      top: 3rem;
+      z-index: 3;
+    }
+    &--p3 {
+      left: 23rem;
+      top: 4rem;
+      z-index: 2;
+    }
+    // middle
+    &--p4 {
+      left: 6rem;
+      top: 8rem;
+      z-index: 5;
+    }
+    &--p5 {
+      left: -5rem;
+      top: 20rem;
+      z-index: 5;
+    }
+    &--p6 {
+      left: 20rem;
+      top: 21rem;
+      z-index: 6;
+    }
   }
 }
