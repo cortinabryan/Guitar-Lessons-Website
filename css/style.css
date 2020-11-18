@@ -172,7 +172,7 @@ body {
       top: 3rem;
       z-index: 3; }
     .composition__photo--p3 {
-      left: 23rem;
+      left: 25rem;
       top: 4rem;
       z-index: 2; }
     .composition__photo--p4 {
@@ -222,3 +222,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+
+.section-about {
+  background-color: #eee;
+  padding: 25rem 0 70rem 0;
+  margin-top: -25vh;
+  margin-bottom: -20vh; }
+
+.section-features {
+  padding: 25rem 0;
+  background-image: linear-gradient(to left bottom, rgba(143, 91, 24, 0.8), rgba(39, 106, 143, 0.8)), url(../img/GuitarBG-features.jpg);
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 8%); }
