@@ -1,0 +1,14 @@
+.feature-box {
+  background-color: rgb(50, 163, 158);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  // margin-top: 50rem;
+
+  &__icon {
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+  }
+}
