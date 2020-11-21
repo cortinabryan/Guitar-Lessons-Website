@@ -54,10 +54,13 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
-  transition: all 0.2s;
+  transition: all 0.5s;
 
   &:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    // transform: skewY(2deg) skewX(15deg) scale(1.1);
+    // transform: skewY(30deg) skewX(0deg) scale(1.1);
+
+    transform: scale3d(1.5, 1.5, 1);
     text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
   }
 }
