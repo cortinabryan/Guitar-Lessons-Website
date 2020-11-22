@@ -195,6 +195,12 @@ body {
       top: 21rem;
       z-index: 6; }
 
+.course-box-large {
+  background-image: url(../img/); }
+
+.course-box-1 {
+  background-image: url(../img/Guitar-course-1.jpg); }
+
 .feature-box {
   background-color: rgba(50, 163, 158, 0.6);
   font-size: 1.5rem;
