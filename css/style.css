@@ -195,11 +195,22 @@ body {
       top: 21rem;
       z-index: 6; }
 
-.course-box-large {
-  background-image: url(../img/); }
-
-.course-box-1 {
-  background-image: url(../img/Guitar-course-1.jpg); }
+.course-box {
+  position: relative; }
+  .course-box-main {
+    background-image: url(../img/Guitar-teacher.jpg);
+    height: 40rem; }
+  .course-box-small {
+    height: 10rem;
+    width: 25rem; }
+    .course-box-small-1 {
+      background-image: url(../img/Guitar-course-1.jpg); }
+    .course-box-small-2 {
+      background-image: url(../img/Guitar-course-2.jpg); }
+    .course-box-small-3 {
+      background-image: url(../img/Guitar-course-3.jpg); }
+    .course-box-small-4 {
+      background-image: url(../img/Guitar-course-4.jpg); }
 
 .feature-box {
   background-color: rgba(50, 163, 158, 0.6);

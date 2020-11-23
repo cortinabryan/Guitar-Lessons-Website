@@ -1,18 +1,29 @@
 .course-box {
-  &-large {
-    background-image: url(../img/);
+  // padding: 60px 14px;
+  position: relative;
+  // font-size: 40rem;
+  &-main {
+    background-image: url(../img/Guitar-teacher.jpg);
+    height: 40rem;
   }
 
-  &-1 {
-    background-image: url(../img/Guitar-course-1.jpg);
-  }
+  &-small {
+    height: 10rem;
+    width: 25rem;
+    &-1 {
+      background-image: url(../img/Guitar-course-1.jpg);
+    }
 
-  &-2 {
-  }
+    &-2 {
+      background-image: url(../img/Guitar-course-2.jpg);
+    }
 
-  &-3 {
-  }
+    &-3 {
+      background-image: url(../img/Guitar-course-3.jpg);
+    }
 
-  &-4 {
+    &-4 {
+      background-image: url(../img/Guitar-course-4.jpg);
+    }
   }
 }
