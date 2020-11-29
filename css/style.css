@@ -199,10 +199,14 @@ body {
   position: relative; }
   .course-box-main {
     background-image: url(../img/Guitar-teacher.jpg);
-    height: 40rem; }
+    height: 50rem;
+    max-width: 100%;
+    object-fit: cover; }
   .course-box-small {
-    height: 10rem;
-    width: 25rem; }
+    height: 20rem;
+    width: 25rem;
+    margin: 0 10rem 10rem 0;
+    object-fit: fill; }
     .course-box-small-1 {
       background-image: url(../img/Guitar-course-1.jpg); }
     .course-box-small-2 {
