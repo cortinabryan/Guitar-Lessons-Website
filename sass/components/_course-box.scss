@@ -3,22 +3,17 @@
   position: relative;
   font-size: 2rem;
   text-align: center;
-  // margin-top: 15rem;
-  // object-fit: cover;
-  // display: block;
 
-  // &-image {
-  //   &-main {
-  //     object-fit: cover;
-  //   }
-  // }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: center center/cover no-repeat;
 
   &-main {
     background-image: url(../img/Guitar-teacher.jpg);
     height: 50rem;
     width: 100%;
-    object-fit: fill;
   }
 
   &-small {

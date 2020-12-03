@@ -203,12 +203,15 @@ body {
   position: relative;
   font-size: 2rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: center center/cover no-repeat; }
   .course-box-main {
     background-image: url(../img/Guitar-teacher.jpg);
     height: 50rem;
-    width: 100%;
-    object-fit: fill; }
+    width: 100%; }
   .course-box-small {
     height: 20rem;
     width: 25rem;
