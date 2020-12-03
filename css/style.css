@@ -80,6 +80,10 @@ body {
     transform: scale3d(1.5, 1.5, 1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.heading-course {
+  position: relative;
+  vertical-align: middle; }
+
 .heading-tertiary {
   font-size: 1.6rem;
   font-weight: 700;
@@ -196,12 +200,15 @@ body {
       z-index: 6; }
 
 .course-box {
-  position: relative; }
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+  background: center center/cover no-repeat; }
   .course-box-main {
     background-image: url(../img/Guitar-teacher.jpg);
     height: 50rem;
-    max-width: 100%;
-    object-fit: cover; }
+    width: 100%;
+    object-fit: fill; }
   .course-box-small {
     height: 20rem;
     width: 25rem;

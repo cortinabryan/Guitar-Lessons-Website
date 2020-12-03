@@ -1,15 +1,24 @@
 .course-box {
   // padding: 60px 14px;
   position: relative;
-  // font-size: 40rem;
+  font-size: 2rem;
+  text-align: center;
+  // margin-top: 15rem;
   // object-fit: cover;
+  // display: block;
+
+  // &-image {
+  //   &-main {
+  //     object-fit: cover;
+  //   }
+  // }
+  background: center center/cover no-repeat;
 
   &-main {
     background-image: url(../img/Guitar-teacher.jpg);
     height: 50rem;
-    max-width: 100%;
-    object-fit: cover;
-    // object-position: right;
+    width: 100%;
+    object-fit: fill;
   }
 
   &-small {
@@ -17,6 +26,7 @@
     width: 25rem;
     margin: 0 10rem 10rem 0;
     object-fit: fill;
+
     &-1 {
       background-image: url(../img/Guitar-course-1.jpg);
     }
