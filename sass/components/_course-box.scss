@@ -1,5 +1,6 @@
 .course-box {
   // padding: 60px 14px;
+  background-color: red;
   position: relative;
   font-size: 2rem;
   text-align: center;
@@ -9,6 +10,7 @@
   justify-content: center;
   flex-direction: column;
   background: center center/cover no-repeat;
+  color: $color-white;
 
   &-main {
     background-image: url(../img/Guitar-teacher.jpg);
@@ -37,5 +39,11 @@
     &-4 {
       background-image: url(../img/Guitar-course-4.jpg);
     }
+  }
+
+  &:hover {
+    transition: transform 1s ease;
+    transform: scale(1.03);
+    filter: blur(3px) brightness(80%);
   }
 }

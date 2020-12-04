@@ -33,7 +33,7 @@
 
 body {
   box-sizing: border-box;
-  padding: 3rem; }
+  padding: 1.5rem; }
 
 body {
   font-family: "Righteous", cursive;
@@ -167,7 +167,8 @@ body {
   animation: moveInBottom 0.5s ease-out 0.75s; }
 
 .composition {
-  position: relative; }
+  position: relative;
+  margin-right: 15rem; }
   .composition__photo {
     width: 55%;
     position: absolute;
@@ -192,14 +193,15 @@ body {
       z-index: 5; }
     .composition__photo--p5 {
       left: -5rem;
-      top: 20rem;
+      top: 17.3rem;
       z-index: 5; }
     .composition__photo--p6 {
-      left: 20rem;
-      top: 21rem;
+      left: 16.4rem;
+      top: 19.2rem;
       z-index: 6; }
 
 .course-box {
+  background-color: red;
   position: relative;
   font-size: 2rem;
   text-align: center;
@@ -207,7 +209,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: center center/cover no-repeat; }
+  background: center center/cover no-repeat;
+  color: #fff; }
   .course-box-main {
     background-image: url(../img/Guitar-teacher.jpg);
     height: 50rem;
@@ -225,6 +228,10 @@ body {
       background-image: url(../img/Guitar-course-3.jpg); }
     .course-box-small-4 {
       background-image: url(../img/Guitar-course-4.jpg); }
+  .course-box:hover {
+    transition: transform 1s ease;
+    transform: scale(1.03);
+    filter: blur(3px) brightness(80%); }
 
 .feature-box {
   background-color: rgba(50, 163, 158, 0.6);

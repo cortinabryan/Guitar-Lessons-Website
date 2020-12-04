@@ -1,5 +1,6 @@
 .composition {
   position: relative;
+  margin-right: 15rem;
 
   &__photo {
     width: 55%;
@@ -31,12 +32,12 @@
     }
     &--p5 {
       left: -5rem;
-      top: 20rem;
+      top: 17.3rem;
       z-index: 5;
     }
     &--p6 {
-      left: 20rem;
-      top: 21rem;
+      left: 16.4rem;
+      top: 19.2rem;
       z-index: 6;
     }
   }
