@@ -201,7 +201,7 @@ body {
       z-index: 6; }
 
 .course-box {
-  background-color: red;
+  background-color: orangered;
   position: relative;
   font-size: 2rem;
   text-align: center;
@@ -210,11 +210,13 @@ body {
   justify-content: center;
   flex-direction: column;
   background: center center/cover no-repeat;
-  color: #fff; }
+  color: #fff;
+  border-radius: 3rem; }
   .course-box-main {
     background-image: url(../img/Guitar-teacher.jpg);
     height: 50rem;
-    width: 100%; }
+    width: 100%;
+    margin-left: 2rem; }
   .course-box-small {
     height: 20rem;
     width: 25rem;
@@ -223,15 +225,17 @@ body {
     .course-box-small-1 {
       background-image: url(../img/Guitar-course-1.jpg); }
     .course-box-small-2 {
-      background-image: url(../img/Guitar-course-2.jpg); }
+      background-image: url(../img/Guitar-course-2.jpg);
+      margin-left: -2rem; }
     .course-box-small-3 {
       background-image: url(../img/Guitar-course-3.jpg); }
     .course-box-small-4 {
-      background-image: url(../img/Guitar-course-4.jpg); }
+      background-image: url(../img/Guitar-course-4.jpg);
+      margin-left: -2rem; }
   .course-box:hover {
     transition: transform 1s ease;
     transform: scale(1.03);
-    filter: blur(3px) brightness(80%); }
+    filter: brightness(90%); }
 
 .feature-box {
   background-color: rgba(50, 163, 158, 0.6);
@@ -282,7 +286,7 @@ body {
 
 .section-about {
   background-color: #eee;
-  padding: 20rem 0 70rem 0;
+  padding: 20rem 0 60rem 0;
   margin-top: -25vh;
   margin-bottom: -20vh; }
 
@@ -291,3 +295,9 @@ body {
   background-image: linear-gradient(to left bottom, rgba(143, 91, 24, 0.8), rgba(39, 106, 143, 0.8)), url(../img/GuitarBG-features.jpg);
   background-size: cover;
   clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 8%); }
+
+.section-courses {
+  background-color: #eee;
+  padding: 20rem 0 70rem 0;
+  margin-top: -25vh;
+  margin-bottom: -20vh; }

@@ -1,6 +1,6 @@
 .section-about {
   background-color: $color-grey-light-2;
-  padding: 20rem 0 70rem 0;
+  padding: 20rem 0 60rem 0;
   margin-top: -25vh;
   margin-bottom: -20vh;
 }
@@ -19,4 +19,11 @@
 
   //   transform: skewY(-7deg);
   //   margin-top: 30rem;
+}
+
+.section-courses {
+  background-color: $color-grey-light-2;
+  padding: 20rem 0 70rem 0;
+  margin-top: -25vh;
+  margin-bottom: -20vh;
 }
