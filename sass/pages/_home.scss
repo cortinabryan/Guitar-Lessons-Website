@@ -27,3 +27,13 @@
   margin-top: -25vh;
   margin-bottom: -20vh;
 }
+
+.section-sign-up {
+  background-image: linear-gradient(
+      to left bottom,
+      rgba($color-tertiary-dark, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../img/GuitarBG-signup.jpg);
+  clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+}
