@@ -180,25 +180,36 @@
         </section>
 
         <section class="section-sign-up">
-            <div class="row">
-                <div class="sign-up">
-                    <div class="sign-up__form">
-                      <div class="u-center-text u-margin-top-small">
-                        <h2 class="heading-secondary u-margin-top-medium">Sign up</h2>
-                           <form action="#" class="form">
-                                <div class="form__group">
-                                   <input type="text" class="form__input" placeholder="Full Name" id="name" required>
-                                   <label for="name" class="form__label">Full name</label>
-                                </div>
-                                <div class="form__group">
-                                   <input type="email" class="form__input" placeholder="Email address" id="email" required>
-                                   <label for="email" class="form__label">Email Address</label>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+         <div class="row">
+           <div class="u-center-text u-margin-top-small">
+                <h2 class="heading-secondary u-margin-top-medium">Sign up</h2>
+           </div>
+         </div>
+         <div class="sign-up">
+          <div class="sign-up__form">
+           <form action="#" class="form">
+            <div class="form__group">
+              <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+              <label for="name" class="form__label">Full Name</label>
             </div>
+            <div class="form__group">
+              <input type="email" class="form__input" placeholder="Email Address" id="email" required>
+              <label for="email" class="form__label">Email Address</label>
+            </div>
+            <div class="form__group">
+              <select name="experience" class="form__input" id="select" required>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intemediate</option>
+                <option value="advanced">Advanced</option>
+              </select>
+              <label for="experience" class="form__label">Experience Level</label>
+            </div>
+            <a href="#" class="btn btn-form btn--animated u-margin-top-small">Submit</a>
+           </form>
+          </div>
+
+
+         </div>
         </section>
     </main>
 </body>

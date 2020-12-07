@@ -1,3 +1,11 @@
 .sign-up {
   //   background-color: red;
+  // background-color: orangered;
+  background-color: rgba(orangered, 0.2);
+
+  margin: 5rem;
+
+  &__form {
+    width: 50%;
+  }
 }

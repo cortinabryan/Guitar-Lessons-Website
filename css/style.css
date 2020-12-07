@@ -119,6 +119,20 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.15;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -148,6 +162,17 @@ body {
   color: green;
   margin-top: 2rem; }
   .btn-white:after {
+    background-color: #fff;
+    color: blue; }
+
+.btn-form {
+  background-color: orchid;
+  color: #777;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0;
+  width: 50%; }
+  .btn-form:after {
     background-color: #fff;
     color: blue; }
 
@@ -250,11 +275,31 @@ body {
     display: inline-block; }
 
 .form {
-  padding: 5rem 10rem;
-  background-color: red;
+  padding: 2.5rem 5rem;
+  background-color: rgba(255, 0, 0, 0.2);
   display: flex;
   align-items: left;
+  justify-content: center;
   flex-direction: column; }
+  .form__input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    transition: all 0.3s; }
+  .form__group:not(:last-child) {
+    margin-bottom: 2rem; }
+
+.sign-up {
+  background-color: rgba(255, 69, 0, 0.2);
+  margin: 5rem; }
+  .sign-up__form {
+    width: 50%; }
 
 .row {
   max-width: 114rem;
@@ -305,9 +350,9 @@ body {
 
 .section-courses {
   background-color: #eee;
-  padding: 20rem 0 75rem 0;
+  padding: 20rem 0 80rem 0;
   margin-top: -25vh;
-  margin-bottom: -26vh; }
+  margin-bottom: -34vh; }
 
 .section-sign-up {
   background-size: cover;
