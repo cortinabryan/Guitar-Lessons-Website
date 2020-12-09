@@ -1,11 +1,16 @@
 .sign-up {
-  //   background-color: red;
-  // background-color: orangered;
   background-color: rgba(orangered, 0.2);
 
   margin: 5rem;
+  // padding: 10rem;
+  // margin-bottom: 50rem;
 
   &__form {
-    width: 50%;
+    // padding-bottom: 50rem;
+  }
+
+  &__desc {
+    text-align: center;
+    background-color: green;
   }
 }
