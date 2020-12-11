@@ -53,7 +53,7 @@ body {
     margin: 0; }
   .heading-primary--sub {
     display: block;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #db9f51;
     animation-name: moveInRight;
     animation-timing-function: ease-out;
@@ -300,7 +300,7 @@ body {
   margin: 5rem; }
   .sign-up__desc {
     text-align: center;
-    background-color: green; }
+    background-color: rgba(0, 128, 0, 0.4); }
 
 .row {
   max-width: 114rem;
@@ -337,6 +337,19 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.footer {
+  background-color: #333;
+  margin-top: 10rem;
+  padding: 10rem;
+  font-size: 1.5rem;
+  color: #f7f7f7; }
+  .footer__container {
+    display: flex; }
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+    float: right; }
+
 .section-about {
   background-color: #eee;
   padding: 20rem 0 60rem 0;
@@ -356,7 +369,7 @@ body {
   margin-bottom: -40vh; }
 
 .section-sign-up {
-  padding-bottom: 30rem;
+  padding-bottom: 33rem;
   background-size: cover;
   background-image: linear-gradient(to left bottom, rgba(143, 91, 24, 0.8), rgba(39, 106, 143, 0.8)), url(../img/GuitarBG-signup.jpg);
   clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%); }

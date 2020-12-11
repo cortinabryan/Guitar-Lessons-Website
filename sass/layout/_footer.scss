@@ -1,0 +1,17 @@
+.footer {
+  background-color: $color-grey-dark-3;
+  margin-top: 10rem;
+  padding: 10rem;
+  font-size: 1.5rem;
+  color: $color-grey-light-1;
+
+  &__container {
+    display: flex;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
+}
